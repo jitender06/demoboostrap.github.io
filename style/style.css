@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* service */
+
+
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#service-btn{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+#service-btn:hover{
+    color:balck;
+}
+#service-image{
+    padding:5%;
+}
+
+/* countersection */
+
+#counter-section{
+
+    background-color:rgb(230, 230, 26);
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.counter-icon{
+    font-size: 40px;
+}
+
+/* bloogg */
+
+#blog{
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+#blog-title{
+    font-size:20px ;
+    font-weight: bolder;
+}
+#blog-p{
+    font-size: 14px;
+    margin-bottom: 70px;
+    padding: 0 88px;
+}
+
+.artical-detail{
+    padding: 10px;
+    border: 1px solid rgb(185, 185, 185);
+    border-top: 0;
+}
+.artical-link{
+    text-decoration: none;
+}
+.artical-date, .artical-link{
+    color: #00bc90;;
+}
+
+/* footer */
+
+#footer{
+    background-color: rgba(9, 9, 9, 0.88);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#footer a{
+    color:white;
+    text-decoration:none;
+}
+#footer-form{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+#footer-search-box{
+    background-color:#fcc302;
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    position: relative;
+    left: 10px;
+}
+#footer-search-sumbit{
+    background-color: #00bc90;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 20px;
+
+}
+.social-icon{
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+
+
+/* amazone /////// */
+
+#amazone{
+    padding-top:70px ;
+    padding-bottom: 70px;
+    background-color: rgb(238, 197, 218);
+}
+.amazone-section{
+    background-color: white;
+    margin: 35px;
+    
+}
+.amazone-section h2{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.sub-section-image{
+    margin: 5px auto;
+}
+.sub-part a{
+    text-decoration: none;
+    margin-bottom:5px ;
+    color: black;
+}
+.see-more{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+
+/* sheru section started */
+
+#sheru{
+    background-color: #00bc90;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.sheru-left{
+    margin-top:50px;
+}
+.sheru-left h1{
+    font-size:50px;
+    font-weight: bold;
+    color: black !important;
+    padding: 7px 0;
+}
+.sheru-left p{
+    font-size: 16px;
+}
+.sheru-left a{
+    text-decoration: none;
+    color: white;
+    background-color: #fcc302;
+    padding: 12px 24px;
+    border-radius: 50px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.sheru-right p{
+    background-color: rgb(83, 84, 84);
+    position: relative;
+    bottom: 106px;
+    right: 205px;
+    width: 500px;
+    padding: 17px;
+}
+
+.image-sheru::before{
+    content: " ";
+    background-color: black;
+    position: absolute;
+    left: 200px;
+    bottom: 200px;
+    width: 900px;
+    height: 420px;
+}
+
+
+
+
+.container-test{
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+}
+.first{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+}
+.second{
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+}
+.third{
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+}
